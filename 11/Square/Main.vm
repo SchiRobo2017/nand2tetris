@@ -1,0 +1,41 @@
+function Main.main 1
+call SquareGame.new 0
+pop local 0
+push local 0
+call SquareGame.run 1
+pop temp 0
+push local 0
+call SquareGame.dispose 1
+pop temp 0
+push constant 0
+return
+function Main.more 4
+push constant 0
+if-goto IF_TRUE0
+goto IF_FALSE0
+label IF_TRUE0
+pop local 2
+push constant 0
+pop local 2
+push constant 1
+push constant 2
+pop local 3
+goto IF_END0
+label IF_FALSE0
+push local 0
+push local 1
+neg
+call Math.multiply 2
+pop local 0
+push local 1
+push constant 2
+neg
+call Math.devide 2
+pop local 1
+push local 0
+push local 1
+or
+pop local 0
+label IF_FALSE0
+push constant 0
+return

@@ -1,0 +1,9 @@
+<tokens>
+<symbol> { </symbol>
+<keyword> let </keyword>
+<identifier> city </identifier>
+<symbol> = </symbol>
+<stringConstant> Paris </stringConstant>
+<symbol> ; </symbol>
+<symbol> } </symbol>
+</tokens>
